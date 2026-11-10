@@ -205,6 +205,7 @@ android {
         applicationId = "dev.pivisolutions.dictus"
         minSdk = 29
         targetSdk = 36
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders["dictusAppLabel"] = "Dictus"
         // versionCode and versionName come from git tags, see appVersionName above (#165).
         // Injected into BuildConfig so every log export names the exact commit (#112).
